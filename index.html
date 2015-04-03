@@ -32,6 +32,30 @@
     #mapContainer{
         text-align: center;
     }
+    #Team{
+        height: 50em;
+    }
+
+    #ImgContainer {
+        height: inherit;
+        width: 100%;
+
+    }
+    .Pics{
+        width: 25%;
+        height: 50%;
+        display: inline-block;
+
+
+    }
+    .Pics img{
+        height: 100%;
+        width: 100%;
+
+    }
+    .Pics img:hover{
+        background-color: #ffffff;
+    }
 
 
     body>
@@ -378,11 +402,19 @@
 
       <hr class="featurette-divider">
 
-  <div class="featurette">
-        <img class="featurette-image pull-right" src="../assets/img/examples/browser-icon-safari.png">
-        <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-      </div>
+    <div id="Team" class="featurette">
+        <h2 class="featurette-heading">The <span class="muted">Team</span></h2>
+        <br>
+        <div id="ImgContainer">
+        <div class = "Pics"><img src="img/city2.jpg"></div>
+        <div class = "Pics"><img src="img/city4.jpg"></div>
+        <div class = "Pics"><img src="img/Skyline.jpg"></div>
+        <div class = "Pics"><img src="img/city4.jpg"></div>
+        </div>
+        </div>
+
+
+    </div>
 
       <hr class="featurette-divider">
 
@@ -394,7 +426,6 @@
         <p class="pull-right"><a href="#">Back to top</a></p>
         <p>© 2014 Designed By: Danny Sanchez <a href="http://www.uga.edu/"><span style="align-content:center">UGA</span></a></p>
       </footer>
-    </div><!-- /.container -->
 
 
 
@@ -404,6 +435,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="responsiveslides.min.js"></script>
     <script>
       !function ($) {
         $(function(){
@@ -412,6 +444,7 @@
         })
       }(window.jQuery)
     </script>
+
   
 
 </body></html>

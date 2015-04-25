@@ -1,14 +1,15 @@
+<!DOCTYPE html>
 <html lang="en"><head>
-    <meta charset="utf-8">
+    <meta charset= "utf-8">
     <title>Algorithmic Trading</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
+
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <style>
+    <style type="text/css">
 
     /* GLOBAL STYLES
     -------------------------------------------------- */
@@ -24,12 +25,12 @@
         background-color: black;
     }
 
-    #map {
+    .map {
         display: inline-block;
 
     }
 
-    #mapContainer{
+    .mapContainer{
         text-align: center;
     }
     #Team{
@@ -507,15 +508,10 @@
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-      <script src="../assets/js/html5shiv.js"></script>
+
     <![endif]-->
 
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
+
   <style id="holderjs-style" type="text/css">.holderjs-fluid {font-size:16px;font-weight:bold;text-align:center;font-family:sans-serif;margin:0}</style><style type="text/css"></style></head>
 
   <body>
@@ -548,8 +544,7 @@
 
                 <!-- Read about Bootstrap dropdowns at http://twbs.github.com/bootstrap/javascript.html#dropdowns -->
               </ul>
-                </li>
-              </ul>
+
             </div><!--/.nav-collapse -->
           </div><!-- /.navbar-inner -->
         </div><!-- /.navbar -->
@@ -600,7 +595,7 @@
       <hr class="featurette-divider" id="first">
 
       <div class="featurette">
-        <img class="featurette-image pull-right" src="img/Logo.png">
+        <img class="featurette-image pull-right" src="img/Logo.png" alt="Logo">
         <h2 class="featurette-heading" id="About Us">About <span class="muted">Us</span></h2>
         <p class="lead">We are undergraduate UGA students working on research in Algorithmic Trading. Our research is headed by Professor <a href = "http://www.math.uga.edu/directory/qing-zhang">Qing Zhang</a>. Our continued progress will be posted on this domain as well as our final paper which will be presented at the CURO symposium in May 2015.</p>
       </div>
@@ -613,8 +608,8 @@
         	CURO research project. E-mail inquiries: <a href="mailto:mathresearch4790@gmail.com?Subject=WebsiteInquiry" target="_top">Send Mail</a>
         </p>
       <br>
-      <div id="mapContainer">
-      <div id = "map">
+      <div class="mapContainer">
+      <div class = "map">
       <iframe width="720" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=&amp;sll=33.945149,-83.373018&amp;sspn=0.003769,0.00603&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;ll=33.945176,-83.374343&amp;spn=0.003115,0.00456&amp;z=17&amp;output=embed"></iframe>
 </div>
           </div>
@@ -644,7 +639,7 @@
                     <div id="slideshow-inner">
                         <ul>
                             <li id="slide1">
-                                <img src="./img/Danny.JPG">
+                                <img src="./img/Danny.JPG" alt ="Danny">
                                 <div class="description">
                                     <input type="checkbox" id="show-description-1">
                                     <label for="show-description-1" class="show-description-label">I</label>
@@ -657,7 +652,7 @@
                                 </div>
                             </li>
                             <li id="slide2">
-                                <img src="./img/Andrew.JPG">
+                                <img src="./img/Andrew.JPG" alt="Andrew">
                                 <div class="description">
                                     <input type="checkbox" id="show-description-2">
                                     <label for="show-description-2" class="show-description-label">I</label>
@@ -668,7 +663,7 @@
                                 </div>
                             </li>
                             <li id="slide3">
-                                <img src="./img/Symposium.JPG">
+                                <img src="./img/Symposium.JPG" alt="Symposium">
                                 <div class="description">
                                     <input type="checkbox" id="show-description-3">
                                     <label for="show-description-3" class="show-description-label">I</label>
@@ -679,7 +674,7 @@
                                 </div>
                             </li>
                             <li id="slide4">
-                                <img src="./img/Hadoop.jpg">
+                                <img src="./img/Hadoop.jpg" alt="Hadoop">
                                 <div class="description">
                                     <input type="checkbox" id="show-description-4">
                                     <label for="show-description-4" class="show-description-label">I</label>
@@ -705,8 +700,8 @@
         <p class="lead">PowerPoint outlining our CURO presentation
         </p>
         <br>
-        <div id="mapContainer">
-            <div id = "map">
+        <div class="mapContainer">
+            <div class = "map">
                 <iframe src="//www.slideshare.net/slideshow/embed_code/46997850" width="714" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe></div>
         </div>
     </div>
@@ -720,7 +715,7 @@
       <!-- FOOTER -->
       <footer>
         <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2014 Designed By: Danny Sanchez <a href="http://www.uga.edu/"><span style="align-content:center">UGA</span></a></p>
+        <p>© 2014 Designed By: <a href ="https://www.linkedin.com/in/dannysanchez1993">Danny Sanchez</a> <a href="http://www.uga.edu/"><span style="align-content:center">UGA</span></a></p>
       </footer>
 
 
